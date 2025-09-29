@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание по HTML</title>
+</head>
+<body>
+    <h1>Задание</h1>
+    
+    <h2>Вставка изображения</h2>
+    <p>Вставьте изображение с интернета:</p>
+    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Горный пейзаж" width="400">
+    
+    <h2>Картинка-ссылка</h2>
+    <p>Сделайте изображение ссылкой на Google:</p>
+    <a href="https://google.com">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Озеро в горах" width="300">
+    </a>
+    
+    <h2>Вложенный список</h2>
+    <p>Создайте список:</p>
+    <ul>
+        <li>Пункт 1
+            <ul>
+                <li>Подпункт 1.1</li>
+                <li>Подпункт 1.2</li>
+            </ul>
+        </li>
+        <li>Пункт 2
+            <ul>
+                <li>Подпункт 2.1</li>
+                <li>Подпункт 2.2</li>
+            </ul>
+        </li>
+    </ul>
+    
+    <h2>Список определений</h2>
+    <p>Создайте список определений:</p>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Язык разметки для создания веб-страниц</dd>
+        <dt>CSS</dt>
+        <dd>Язык стилей для оформления веб-страниц</dd>
+        <dt>JavaScript</dt>
+        <dd>Язык программирования для интерактивности на веб-страницах</dd>
+    </dl>
+    
+    <h2>Тег &lt;pre&gt;</h2>
+    <p>Используйте тег &lt;pre&gt; для сохранения форматирования:</p>
+    <pre>
+function hello() {
+    console.log("Hello, World!");
+    return true;
+}
+    </pre>
+    
+    <h2>Форматирование текста</h2>
+    <p>Сделайте этот текст <b>жирный</b> и <u>подчеркнутый</u>:</p>
+    <p>Это <b>жирный текст</b> и это <u>подчеркнутый текст</u>.</p>
+</body>
+</html>
